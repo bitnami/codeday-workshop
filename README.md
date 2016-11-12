@@ -37,6 +37,8 @@ docker run -d -p 8080:80 --name webserver bitnami/nginx
 
 Now in your web browser, go to http://localhost:8080/ and checkout your fancy new web server!
 
+NOTE: If you are using Docker Toolbox for Windows, you need to find the Docker machine IP address first by running `docker-machine ip` instead, and replace localhost for the retrieved IP address.
+
 To stop, and delete the web server, run the following command:
 
 ```
